@@ -1,0 +1,155 @@
+html { 
+  margin:0; padding: 0; height: 100% 
+}
+
+/*fontfaces*/
+
+@font-face {
+  font-family: universcond;
+  src: url('Fonts/UniversLTStd-Cn.otf');
+}
+
+@font-face {
+  font-family: universlightcond;
+  src: url('Fonts/UniversLTStd-LightCn.otf');
+}
+
+@font-face {
+  font-family: universlight;
+  src: url('Fonts/UniversLTStd-Light.otf');
+}
+
+@font-face {
+    src: url('custom_font.eot');
+    src: local(custom_font), url('custom_font.ttf') format('truetype');
+  font-family: universboldcond;
+  src: url('Fonts/UniversLTStd-BoldCn.otf');
+}
+
+/*font definitions*/
+
+body { 
+  font-size: 20px;
+  font-family: universlight; 
+  color: white;
+}
+
+
+datehead {
+  font-family: universlightcond;
+  font-size: 80px;
+  color: white;
+  text-transform:uppercase;
+  letter-spacing: -3px;
+	margin: 10px;
+	line-height: 80px;
+
+
+}
+
+datesub {
+  font-family: universlightcond;
+  font-size: 35px;
+  color: white;
+  text-transform:uppercase;
+  padding:0px 10px 10px;
+	line-height: 10px;
+}
+
+head1 {
+  font-family: universboldcond;
+  font-size: 80px;
+  color: white;
+  text-transform:uppercase;
+	margin: 5px;
+	line-height: 80px;
+}
+
+head2 {
+  font-family: universcond;
+  font-size: 36px;
+  color: white;
+  text-transform:uppercase;
+  letter-spacing: -1.5px;
+  margin: 10px;
+}
+
+/*structure*/
+
+
+.col1 {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width: 566px; 
+  background: #225297;
+
+}
+
+.col2 {
+  width: 500px;
+  background: #70b744;
+
+}
+
+.col3 {
+  width: 800px;
+	height: 400	px;
+  background: #000000;
+	position:fixed;
+	left: 566px;
+	top: 0px;
+}
+
+.col4 {
+	height: 360px;
+	width: 1366px;
+	background: #00aeef;
+	clear:both;
+    position:fixed;
+    left: 0px;
+    top: 440px;
+}
+
+.date-header {
+  padding: 17px;
+  background: #00aeef;
+  padding-top: 25px
+  height: 50px;
+
+}
+
+.staff-header {
+  padding: 12px;
+  background: #006090;
+	height: 36px;
+
+
+}
+
+
+.schedule {
+  padding: 12px;
+  background: #70b744;
+  height:36px;
+
+}
+
+
+.staff-info {
+  padding-left: 20px;
+  background: #4D4D4D;
+	height: 194px;
+
+}
+
+.eventshead {
+  padding: 20px;
+  background: #4D4D4D;
+
+}
+
+.staffimg {
+  margin: 10px;
+
+}

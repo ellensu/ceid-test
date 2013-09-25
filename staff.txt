@@ -1,0 +1,42 @@
+<DAY>Sunday</DAY>
+<IMG>http://ceid.yale.edu/wp-content/uploads/2013/08/olga.jpg</IMG>
+<NAME>Olga Wroblewski</NAME>
+6-9
+
+<SKILLS>Olga is
+
+
+<DAY>Monday</DAY>
+<IMG>http://ceid.yale.edu/wp-content/uploads/2013/08/pat1.jpg</IMG>
+<NAME>Pat</NAME>
+6-9
+
+
+
+<DAY>Tuesday</DAY>
+<NAME>Riley</NAME>
+6-9
+
+
+
+<DAY>Wednesday</DAY>
+<NAME>Jan
+6-9
+
+
+<DAY>Thursday</DAY>
+<NAME>Mavi</NAME>
+6-9
+
+
+
+<DAY>Friday</DAY>
+<NAME>Catherine</NAME>
+6-9
+
+
+<DAY>Saturday</DAY>
+<NAME>Alex</NAME>
+6-9
+
+Alex is great with Electronics and Arduino!
