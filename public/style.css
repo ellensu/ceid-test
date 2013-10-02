@@ -67,11 +67,10 @@ head1 {
 
 head2 {
   font-family: universcond;
-  font-size: 36px;
+  font-size: 30px;
   color: white;
   text-transform:uppercase;
   letter-spacing: -1.5px;
-  margin: 10px;
 }
 
 /*structure*/
@@ -99,16 +98,17 @@ head2 {
 	position:fixed;
 	left: 566px;
 	top: 0px;
+	margin-top: -42px;
 }
 
 .col4 {
-	height: 360px;
+	height: 385px;
 	width: 1366px;
 	background: #00aeef;
 	clear:both;
     position:fixed;
     left: 0px;
-    top: 440px;
+    top: 410px;
 }
 
 .date-header {
@@ -120,24 +120,25 @@ head2 {
 }
 
 .staff-header {
-  padding: 12px;
+  padding: 8px;
+	padding-left: 24px;
   background: #006090;
-	height: 36px;
+	height: 30px;
 
 
 }
 
 
 .schedule {
-  padding: 12px;
+  padding: 8px;
+	padding-left: 24px;
   background: #70b744;
-  height:36px;
+  height:30px;
 
 }
 
 
 .staff-info {
-  padding-left: 20px;
   background: #4D4D4D;
 	height: 194px;
 
