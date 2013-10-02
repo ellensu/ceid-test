@@ -12,13 +12,6 @@ html {
 
 
 @font-face {
-	font-family: 'universlight';
-	src: url('fonts/UniversLTStd-Light.eot');
-	src: local('☺'), url('fonts/UniversLTStd-Light.woff') format('woff'), url('fonts/UniversLTStd-Light.ttf') format('truetype'), url('fonts/UniversLTStd-Light.svg') format('svg');
-}
-
-
-@font-face {
 	font-family: 'universlightcond';
 	src: url('fonts/UniversLTStd-LightCn.eot');
 	src: local('☺'), url('fonts/UniversLTStd-LightCn.woff') format('woff'), url('fonts/UniversLTStd-LightCn.ttf') format('truetype'), url('fonts/UniversLTStd-LightCn.svg') format('svg');
@@ -37,11 +30,6 @@ html {
 
 /*font definitions*/
 
-body { 
-  font-size: 20px;
-  font-family: universlight; 
-  color: white;
-}
 
 
 datehead {
