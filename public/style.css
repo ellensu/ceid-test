@@ -5,26 +5,35 @@ html {
 /*fontfaces*/
 
 @font-face {
-  font-family: universcond;
-  src: url('Fonts/UniversLTStd-Cn.otf');
+	font-family: 'Conv_UniversLTStd-Cn';
+	src: url('fonts/UniversLTStd-Cn.eot');
+	src: local('☺'), url('fonts/UniversLTStd-Cn.woff') format('woff'), url('fonts/UniversLTStd-Cn.ttf') format('truetype'), url('fonts/UniversLTStd-Cn.svg') format('svg');
 }
 
-@font-face {
-  font-family: universlightcond;
-  src: url('Fonts/UniversLTStd-LightCn.otf');
-}
 
 @font-face {
-  font-family: universlight;
-  src: url('Fonts/UniversLTStd-Light.otf');
+	font-family: 'Conv_UniversLTStd-Light';
+	src: url('fonts/UniversLTStd-Light.eot');
+	src: local('☺'), url('fonts/UniversLTStd-Light.woff') format('woff'), url('fonts/UniversLTStd-Light.ttf') format('truetype'), url('fonts/UniversLTStd-Light.svg') format('svg');
 }
 
+
 @font-face {
-    src: url('custom_font.eot');
-    src: local(custom_font), url('custom_font.ttf') format('truetype');
-  font-family: universboldcond;
-  src: url('Fonts/UniversLTStd-BoldCn.otf');
+	font-family: 'Conv_UniversLTStd-LightCn';
+	src: url('fonts/UniversLTStd-LightCn.eot');
+	src: local('☺'), url('fonts/UniversLTStd-LightCn.woff') format('woff'), url('fonts/UniversLTStd-LightCn.ttf') format('truetype'), url('fonts/UniversLTStd-LightCn.svg') format('svg');
 }
+
+
+
+@font-face {
+	font-family: 'universboldcond';
+	src: url('fonts/UniversLTStd-BoldCn.eot');
+	src: local('☺'), url('fonts/UniversLTStd-BoldCn.woff') format('woff'), url('fonts/UniversLTStd-BoldCn.ttf') format('truetype'), url('fonts/UniversLTStd-BoldCn.svg') format('svg');
+
+}
+
+
 
 /*font definitions*/
 
