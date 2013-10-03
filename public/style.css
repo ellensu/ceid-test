@@ -6,32 +6,32 @@ html {
 
 @font-face {
 	font-family: 'universcond';
-    src: url('fonts/400756836-UniversLTStd-Cn.eot');
-    src: url('fonts/400756836-UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'), 
-    url('fonts/400756836-UniversLTStd-Cn.woff') format('woff'), 
-    url('fonts/400756836-UniversLTStd-Cn.ttf') format('truetype'), 
-    url('fonts/400756836-UniversLTStd-Cn.svg') format('svg');
+    src: url('public/fonts/400756836-UniversLTStd-Cn.eot');
+    src: url('public/fonts/400756836-UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'), 
+    url('public/fonts/400756836-UniversLTStd-Cn.woff') format('woff'), 
+    url('public/fonts/400756836-UniversLTStd-Cn.ttf') format('truetype'), 
+    url('public/fonts/400756836-UniversLTStd-Cn.svg') format('svg');
 }
 
 
 @font-face {
 	font-family: 'universlightcond';
-    src: url('fonts/98785401-UniversLTStd-LightCn.eot');
-    src: url('fonts/98785401-UniversLTStd-LightCn.eot?#iefix') format('embedded-opentype'), 
-    url('fonts/98785401-UniversLTStd-LightCn.woff') format('woff'), 
-    url('fonts/98785401-UniversLTStd-LightCn.ttf') format('truetype'), 
-    url('fonts/98785401-UniversLTStd-LightCn.svg') format('svg');
+    src: url('public/fonts/98785401-UniversLTStd-LightCn.eot');
+    src: url('public/fonts/98785401-UniversLTStd-LightCn.eot?#iefix') format('embedded-opentype'), 
+    url('public/fonts/98785401-UniversLTStd-LightCn.woff') format('woff'), 
+    url('public/fonts/98785401-UniversLTStd-LightCn.ttf') format('truetype'), 
+    url('public/fonts/98785401-UniversLTStd-LightCn.svg') format('svg');
 }
 
 
 
 @font-face {
 	font-family: 'universboldcond';
-    src: url('fonts/400451661-UniversLTStd-BoldCn.eot');
-    src: url('fonts/400451661-UniversLTStd-BoldCn.eot?#iefix') format('embedded-opentype'), 
-    url('fonts/400451661-UniversLTStd-BoldCn.woff') format('woff'), 
-    url('fonts/400451661-UniversLTStd-BoldCn.ttf') format('truetype'), 
-    url('fonts/400451661-UniversLTStd-BoldCn.svg') format('svg');
+    src: url('public/fonts/400451661-UniversLTStd-BoldCn.eot');
+    src: url('public/fonts/400451661-UniversLTStd-BoldCn.eot?#iefix') format('embedded-opentype'), 
+    url('public/fonts/400451661-UniversLTStd-BoldCn.woff') format('woff'), 
+    url('public/fonts/400451661-UniversLTStd-BoldCn.ttf') format('truetype'), 
+    url('public/fonts/400451661-UniversLTStd-BoldCn.svg') format('svg');
 
 }
 
