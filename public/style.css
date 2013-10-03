@@ -39,7 +39,7 @@ html {
 
 
 datehead {
-  font-family: universlightcond;
+  font-family: universlightcond, sans-serif;
   font-size: 80px;
   color: white;
   text-transform:uppercase;
@@ -51,7 +51,7 @@ datehead {
 }
 
 datesub {
-  font-family: universlightcond;
+  font-family: universlightcond, sans-serif;
   font-size: 35px;
   color: white;
   text-transform:uppercase;
@@ -60,7 +60,7 @@ datesub {
 }
 
 head1 {
-  font-family: universboldcond;
+  font-family: universboldcond, sans-serif;
   font-size: 80px;
   color: white;
   text-transform:uppercase;
@@ -69,7 +69,7 @@ head1 {
 }
 
 head2 {
-  font-family: universcond;
+  font-family: universcond, sans-serif;
   font-size: 30px;
   color: white;
   text-transform:uppercase;
