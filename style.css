@@ -108,13 +108,13 @@ head2 {
 }
 
 .col4 {
-	height: 385px;
+	height: 375px;
 	width: 1366px;
 	background: #00aeef;
 	clear:both;
     position:fixed;
     left: 0px;
-    top: 410px;
+    top: 420px;
 }
 
 .date-header {

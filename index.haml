@@ -1,11 +1,45 @@
-!!! Strict
+!!! Strict
 %html(lang="en")
 	%head
 		%meta(charset="utf-8")
 		%meta(http-equiv="X-UA-Compatible" content="IE=9,chrome=1")
-
 		%link(rel="stylesheet" type="text/css" href="style.css")
 
 	%body
 		.col1
-			%img{:src => "/images/ceid2017intro.jpg"}
+			.date-header
+				%datehead= Date.today.strftime "%A"
+				<br>
+				%datesub= Date.today.strftime "%B %-d, %Y"
+			.staff-header
+				%head2 On Staff
+			.staff-info
+				- imgurl = "<img src=\"http://i957.photobucket.com/albums/ae53/yaleceid/Staff%20Photos/staffperson.jpg\" alt=\"staff info\">"
+				- dayofweek = Date.today.wday
+				- staff = 'NA'
+				- if dayofweek == 0
+					-staff = 'olga_zps09a395da'
+				- if dayofweek == 1
+					-staff = 'pat_zps49388030'
+				- if dayofweek == 2
+					-staff = 'riley_zps18da741e'
+				- if dayofweek == 3
+					-staff = 'jan_zps56a5e1db'
+				- if dayofweek == 4
+					-staff = 'mavi_zpsbd16a929'
+				- if dayofweek == 5
+					-staff = 'catherine_zpse26aa7ad'
+				- if dayofweek == 6
+					-staff = 'alex_zpsbfb30ec6'																			
+				= imgurl.gsub("staffperson", staff)
+                
+			.schedule
+				%head2 Schedule
+
+		.col2
+            
+		.col3
+			<iframe allowtransparency="true" frameborder="0" scrolling="no" width="800" height="500" src="http://www.gmodules.com/gadgets/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/108621208120033273647/picasa-slideshow.xml&up_CCOL=%23000000&up_BCOL=%23000000&up_TCOL=%23FFFFFF&up_NAB=No&up_SCOL=%23000000&up_PWH=800&up_PHT=375&up_DTime=8000&up_TTime=400&up_CLP=Yes&up_FEED=http://picasaweb.google.com/data/feed/base/user/105124335950782218530/albumid/5924618476068232241?alt=rss&amp;kind=photo&amp;hl=en_US"><a href="http://ceid.yale.edu"></a></iframe>
+		.col4
+			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=350&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=yale.edu_pj57k5d89s4ir70v87jjlps7oo%40group.calendar.google.com&amp;color=%235F6B02&amp;src=yale.edu_tp5hu0imtdjbt39qnim2kd0dv0%40group.calendar.google.com&amp;color=%23182C57&amp;src=yale.edu_v5a8sdqrnsu6j112cckp6t3iu4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FNew_York" style=" border-width:0 " width="1366" height="385" frameborder="0" scrolling="no"></iframe>
+
