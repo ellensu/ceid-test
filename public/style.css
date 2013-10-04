@@ -99,7 +99,7 @@ head2 {
 
 .col3 {
   width: 800px;
-	height: 400	px;
+	height: 410	px;
   background: #000000;
 	position:fixed;
 	left: 566px;
@@ -114,7 +114,7 @@ head2 {
 	clear:both;
     position:fixed;
     left: 0px;
-    top: 410px;
+    top: 420px;
 }
 
 .date-header {
